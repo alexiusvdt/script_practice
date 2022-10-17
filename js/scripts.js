@@ -27,3 +27,8 @@ window.alert("Your numbers divided equal " + divide(number1,number2) + ".")
 window.alert("Your numbers multiplied equal " + multiply(number1,number2) + ".")
 
 window.alert("Your numbers added equal " + add(number1, number2) + ". Your numbers subtracted equal " + subtract(number1, number2) + ". Your numbers divided equals " + divide(number1, number2) + ". Your numbers multiplied is " + multiply(number1, number2) + ".")
+
+window.alert(number1 + "+" + number2 + "=" + add(number1, number2))
+window.alert(number1 + "-" + number2 + "=" + subtract(number1, number2))
+window.alert(number1 + "/" + number2 + "=" + divide(number1, number2))
+window.alert(number1 + "*" + number2 + "=" + multiply(number1, number2))
